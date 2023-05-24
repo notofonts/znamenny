@@ -3,10 +3,11 @@
 <head>
     
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>GFR - Text</title>
+    <title>GFR - Glyphs</title>
     
     <style type="text/css">
     
+
         html{
 	  font-family: sans-serif;
 	}
@@ -144,24 +145,8 @@
 
 	  
 	    @font-face{
-    src: url(NotoSerifTest-Bold.ttf);
-    font-family: "Noto Serif Test";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSansTest-Regular.ttf);
-    font-family: "Noto Sans Test";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(NotoSerifTest-Regular.ttf);
-    font-family: "Noto Serif Test";
+    src: url(NotoZnammenyMusicalNotation-Regular.ttf);
+    font-family: "Noto Znammeny Musical Notation";
     font-weight: 400;
     
     font-style: normal;
@@ -174,30 +159,27 @@
 
 	  
 	    .Regular{
-    font-family: "Noto Sans Test", "Adobe NotDef";
+    font-family: "Noto Znammeny Musical Notation", "Adobe NotDef";
     font-weight: 400;
     
     font-style: normal;
     font-variation-settings: "wght" 400;
-}
-	  
-	    .Regular{
-    font-family: "Noto Serif Test", "Adobe NotDef";
-    font-weight: 400;
-    
-    font-style: normal;
-    font-variation-settings: "wght" 400;
-}
-	  
-	    .Bold{
-    font-family: "Noto Serif Test", "Adobe NotDef";
-    font-weight: 700;
-    
-    font-style: normal;
-    font-variation-settings: "wght" 700;
 }
 	  
 	
+.cell{
+  position: relative;
+  z-index: -1;
+  float: left;
+  background-color: #fcfcfc;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 30.0px;
+  line-height: 30.0px;
+}
+
     </style>
 </head>
 <body>
@@ -211,21 +193,15 @@
 </h2>
 	
   
-    <div class="box">
-      <div class="box-title">Regular 20pt</div>
-	<div class="box-text Regular" dir="auto" style="font-size: 20pt"></div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">Regular 20pt</div>
-	<div class="box-text Regular" dir="auto" style="font-size: 20pt"></div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">Bold 20pt</div>
-	<div class="box-text Bold" dir="auto" style="font-size: 20pt"></div>
-    </div>
-  
+      <div class="box">
+	<div class="box-title">Regular 20pt</div>
+	  <span class="Regular" style="font-size: 20pt">
+	    
+	      <div class="cell"> </div>
+	    
+          </span>
+       </div>
+    
 
     </div>
 </body>
@@ -274,87 +250,7 @@
     })
     }));
     
-	// break text so that no reflow happens
-async function breakText() {
-	boxContent = document.getElementsByClassName("box-text")
-	for (let box of boxContent) {
-		switchFonts()
-		await sleep(1)
-		break1 = getLineBreaks(box)
-		switchFonts()
-		await sleep(1)
-		break2 = getLineBreaks(box)
-
-		if (break1.length >= break2.length) {
-		breaks = break1
-		} else {
-		breaks = break2
-		}
-		insertBreaks(box, breaks)
-		box.style.whiteSpace = "pre"
-		console.log("set to pre")
-	}
-	}
-
-function getLineBreaks(elem) {
-	const nodes = grabTextNodes(elem);
-	for (const node of nodes) { // each node is a big block of text
-		let rangeIndex = 1;
-		let textIndex = 0;
-		let nodeText = node.textContent;
-		const textLength = nodeText.length;
-
-		linebreaks = []
-		prevTop = 0;
-		while (rangeIndex <= textLength) {
-			const range = document.createRange();
-			range.setStart(node, rangeIndex-1);
-			range.setEnd(node, rangeIndex)
-			currentTop = range.getBoundingClientRect().top
-		if (currentTop > prevTop) {
-			linebreaks.push(rangeIndex-2)
-		}
-		rangeIndex += 1;
-		prevTop = currentTop
-		}
-	}
-	return linebreaks
-}
-
-function grabTextNodes(elem) {
-	const walker = document.createTreeWalker(elem, NodeFilter.SHOW_TEXT, null);
-	const nodes = [];
-	while (walker.nextNode()) {
-		nodes.push(walker.currentNode);
-	}
-	return nodes;
-}
-
-	function sleep(ms) {
-		return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-
-function insertBreaks(node, breaks) {
-	console.log(node, breaks)
-	newText = ""
-	currentText = node.textContent
-	for (i=0; i<currentText.length; i++) {
-		if (breaks.includes(i)) {
-		newText += "<br>"
-		} else {
-		newText += currentText[i]
-		}
-	}
-	node.innerHTML = newText
-}
-
-	if (fontToggle !== null) {
-		breakText()
-}
-
 	
-
 
     </script>
 </html>
