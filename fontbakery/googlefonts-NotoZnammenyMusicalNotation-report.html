@@ -72,8 +72,8 @@
                 <th>✅ PASS</th>
             </tr>
             <tr>
-                <td>2</td>
-                <td>10</td>
+                <td>1</td>
+                <td>11</td>
                 <td>7</td>
                 <td>124</td>
                 <td>8</td>
@@ -81,7 +81,7 @@
             </tr>
             <tr>
                 <td>1%</td>
-                <td>5%</td>
+                <td>6%</td>
                 <td>4%</td>
                 <td>65%</td>
                 <td>4%</td>
@@ -90,7 +90,7 @@
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; 💥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
 <h3>Checking OS/2 achVendID.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vendor_id&gt;</div>
 
@@ -147,21 +147,6 @@
 But instead we have got:
 &quot;Copyright 2022 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
 </span></li></ul></div></details>
-<h3>Familyname must be unique according to namecheck.fontdata.com</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fontdata_namecheck&gt;</div>
-
-<details><summary>💥 <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed to access: http://namecheck.fontdata.com.
-This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.</p>
-<pre><code>	You can exclude this check with the command line option:
-	-x com.google.fonts/check/fontdata_namecheck
-
-	Or you can wait until the service is available again.
-	If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-	Original error message:
-	&lt;class 'requests.exceptions.ConnectionError'&gt; [code: namecheck-service]
-</code></pre>
-</span></li></ul></div></details>
 <h3>Combined length of family and style must not exceed 27 characters.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_and_style_max_length&gt;</div>
 
@@ -194,7 +179,12 @@ FONT_FAMILY_NAME = 'Noto Znammeny Musical Notation' / SUBFAMILY_NAME = 'Regular'
 
 <details><summary>🔥 <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Universal&gt; 🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h2>&lt;Section: Universal&gt; 🔥🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 289, but got 200 instead. [code: descent]</p>
+</span></li></ul></div></details>
 <h3>Checking OS/2 Metrics match hhea Metrics.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2_metrics_match_hhea&gt;</div>
 
@@ -205,10 +195,16 @@ FONT_FAMILY_NAME = 'Noto Znammeny Musical Notation' / SUBFAMILY_NAME = 'Regular'
 
 <details><summary>🔥 <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
 </span></li></ul></div></details>
-<h3>Ensure dotted circle glyph is present and can attach marks.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dotted_circle&gt;</div>
+<h3>Check if each glyph has the recommended amount of contours.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+<details><summary>⚠️ <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
+</code></pre>
+<p>[code: contour-count]</p>
 </span></li></ul></div></details>
 <h3>Checking Vertical Metric Linegaps.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/linegaps&gt;</div>
@@ -221,7 +217,7 @@ FONT_FAMILY_NAME = 'Noto Znammeny Musical Notation' / SUBFAMILY_NAME = 'Regular'
 
 <details><summary>🔥 <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]</p>
 </span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 72 instead.
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 73 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]</p>
 </span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Font is monospaced but 1 glyphs (0.53%) have a different width. You should check the widths of: ['space'] [code: mono-outliers]</p>
 </span></li></ul></div></details>
@@ -236,7 +232,15 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* u1CF32 (U+1CF32): X=346.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
+<pre><code>* u1CF32 (U+1CF32): X=346.0,Y=701.0 (should be at cap-height 700?)
+
+* u1CF36 (U+1CF36): X=198.0,Y=-198.0 (should be at descender -200?)
+
+* u1CF37 (U+1CF37): X=191.0,Y=-198.0 (should be at descender -200?)
+
+* u1CF3B (U+1CF3B): X=375.0,Y=698.0 (should be at cap-height 700?) 
+
+* u1CF50 (U+1CF50): X=17.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
 <h2>&lt;Section: Shaping Checks&gt; 💥⏩⏩</h2>
