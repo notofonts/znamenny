@@ -2,7 +2,7 @@
                 <html lang="en">
                     <head>
                         <meta charset="utf-8">
-                        <title>Fontbakery Check Report</title>
+                        <title>FontBakery Check Report</title>
                         <style>
                             
             html {
@@ -59,7 +59,7 @@
                         </style>
                     </head>
                     <body>
-                    <h1>Fontbakery Technical Report</h1>
+                    <h1>FontBakery Technical Report</h1>
 <div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
 <h2>Summary</h2>
             <table>
@@ -72,30 +72,29 @@
                 <th>✅ PASS</th>
             </tr>
             <tr>
-                <td>1</td>
-                <td>11</td>
-                <td>7</td>
-                <td>124</td>
+                <td>4</td>
+                <td>10</td>
                 <td>8</td>
-                <td>95</td>
+                <td>124</td>
+                <td>7</td>
+                <td>94</td>
             </tr>
             <tr>
-                <td>1%</td>
-                <td>6%</td>
+                <td>2%</td>
+                <td>5%</td>
                 <td>4%</td>
-                <td>65%</td>
+                <td>68%</td>
                 <td>4%</td>
-                <td>49%</td>
+                <td>51%</td>
             </tr>
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h2>&lt;Section: Google Fonts&gt; 💥💥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
 <h3>Checking OS/2 achVendID.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vendor_id&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
-[code: unknown]</p>
+<details><summary>💥 <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:registered_vendor_ids">FontBakeryCondition:registered_vendor_ids</a> had an error: ModuleNotFoundError: No module named 'bs4'</p>
 </span></li></ul></div></details>
 <h3>Check Google Fonts glyph coverage.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
@@ -140,6 +139,11 @@
 
 <details><summary>🔥 <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
 </span></li></ul></div></details>
+<h3>Show hinting filesize impact.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/hinting_impact&gt;</div>
+
+<details><summary>💥 <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:hinting_stats">FontBakeryCondition:hinting_stats</a> had an error: ModuleNotFoundError: No module named 'dehinter'</p>
+</span></li></ul></div></details>
 <h3>Copyright notices match canonical pattern in fonts</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
 
@@ -183,7 +187,7 @@ FONT_FAMILY_NAME = 'Noto Znammeny Musical Notation' / SUBFAMILY_NAME = 'Regular'
 <h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
 
-<details><summary>🔥 <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 289, but got 200 instead. [code: descent]</p>
+<details><summary>🔥 <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 289, but got 200 instead [code: descent]</p>
 </span></li></ul></div></details>
 <h3>Checking OS/2 Metrics match hhea Metrics.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2_metrics_match_hhea&gt;</div>
@@ -200,9 +204,9 @@ FONT_FAMILY_NAME = 'Noto Znammeny Musical Notation' / SUBFAMILY_NAME = 'Regular'
 
 <details><summary>⚠️ <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
+<pre><code>- Glyph name: uni25CC	Contours detected: 8	Expected: 16or12
 
-- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16or12
 </code></pre>
 <p>[code: contour-count]</p>
 </span></li></ul></div></details>
@@ -211,43 +215,83 @@ FONT_FAMILY_NAME = 'Noto Znammeny Musical Notation' / SUBFAMILY_NAME = 'Regular'
 
 <details><summary>⚠️ <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: fontbakery.profiles.name&gt; 🔥⏩⏩</h2>
-<h3>Checking correctness of monospaced metadata.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/monospace&gt;</div>
-
-<details><summary>🔥 <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 73 instead.
-Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Font is monospaced but 1 glyphs (0.53%) have a different width. You should check the widths of: ['space'] [code: mono-outliers]</p>
-</span></li></ul></div></details>
 <h2>&lt;Section: fontbakery.profiles.gpos&gt; ⚠️</h2>
 <h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️</h2>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️</h2>
 <h3>Are there any misaligned on-curve points?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* u1CF32 (U+1CF32): X=346.0,Y=701.0 (should be at cap-height 700?)
+<pre><code>* u1CF26 (U+1CF26): X=368.0,Y=-2.0 (should be at baseline 0?)
 
-* u1CF36 (U+1CF36): X=198.0,Y=-198.0 (should be at descender -200?)
+* u1CF28 (U+1CF28): X=356.0,Y=1.0 (should be at baseline 0?)
 
-* u1CF37 (U+1CF37): X=191.0,Y=-198.0 (should be at descender -200?)
+* u1CF28 (U+1CF28): X=356.0,Y=1.0 (should be at baseline 0?)
 
-* u1CF3B (U+1CF3B): X=375.0,Y=698.0 (should be at cap-height 700?) 
+* u1CF28 (U+1CF28): X=413.0,Y=1.0 (should be at baseline 0?)
 
-* u1CF50 (U+1CF50): X=17.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+* u1CF28 (U+1CF28): X=413.0,Y=1.0 (should be at baseline 0?)
+
+* u1CF29 (U+1CF29): X=356.0,Y=699.0 (should be at cap-height 700?)
+
+* u1CF29 (U+1CF29): X=356.0,Y=699.0 (should be at cap-height 700?)
+
+* u1CF29 (U+1CF29): X=413.0,Y=699.0 (should be at cap-height 700?)
+
+* u1CF29 (U+1CF29): X=413.0,Y=699.0 (should be at cap-height 700?)
+
+* u1CF2B (U+1CF2B): X=490.0,Y=702.0 (should be at cap-height 700?)
+
+* 73 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* u1CF54 (U+1CF54) contains a short segment B&lt;&lt;335.0,545.0&gt;-&lt;340.0,547.0&gt;-&lt;346.0,548.5&gt;&gt;
+
+* u1CF54 (U+1CF54) contains a short segment B&lt;&lt;346.0,548.5&gt;-&lt;352.0,550.0&gt;-&lt;358.0,553.0&gt;&gt;
+
+* u1CF55 (U+1CF55) contains a short segment B&lt;&lt;60.0,283.0&gt;-&lt;53.0,283.0&gt;-&lt;44.0,280.0&gt;&gt;
+
+* u1CF82 (U+1CF82) contains a short segment B&lt;&lt;44.0,394.0&gt;-&lt;38.0,390.0&gt;-&lt;33.5,390.5&gt;&gt;
+
+* u1CF82 (U+1CF82) contains a short segment B&lt;&lt;33.5,390.5&gt;-&lt;29.0,391.0&gt;-&lt;30.0,397.0&gt;&gt;
+
+* u1CF82 (U+1CF82) contains a short segment B&lt;&lt;221.0,152.0&gt;-&lt;227.0,156.0&gt;-&lt;231.5,155.5&gt;&gt;
+
+* u1CF82 (U+1CF82) contains a short segment B&lt;&lt;231.5,155.5&gt;-&lt;236.0,155.0&gt;-&lt;235.0,149.0&gt;&gt;
+
+* u1CF8D (U+1CF8D) contains a short segment B&lt;&lt;264.5,390.5&gt;-&lt;260.0,391.0&gt;-&lt;261.0,397.0&gt;&gt;
+
+* u1CF8D (U+1CF8D) contains a short segment B&lt;&lt;462.5,155.5&gt;-&lt;467.0,155.0&gt;-&lt;466.0,149.0&gt;&gt;
+
+* u1CFBF (U+1CFBF) contains a short segment B&lt;&lt;125.0,199.0&gt;-&lt;130.0,203.0&gt;-&lt;133.0,199.5&gt;&gt; [code: found-short-segments]
 </code></pre>
 </span></li></ul></div></details>
-<h2>&lt;Section: Shaping Checks&gt; 💥⏩⏩</h2>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* u1CF55 (U+1CF55): B&lt;&lt;95.0,328.5&gt;-&lt;111.0,323.0&gt;-&lt;131.0,306.0&gt;&gt;/L&lt;&lt;131.0,306.0&gt;--&lt;49.0,399.0&gt;&gt; = 8.232180504531026 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<h2>&lt;Section: Shaping Checks&gt; 💥💥⏩⏩</h2>
 <h3>Check that texts shape as per expectation</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/shaping/regression&gt;</div>
 
 <details><summary>💥 <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with KeyError: 'uni0E70'</p>
+</span></li></ul></div></details>
+<h3>Check that no collisions are found while shaping</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/shaping/collides&gt;</div>
+
+<details><summary>💥 <strong>fonts/NotoZnammenyMusicalNotation/googlefonts/ttf/NotoZnammenyMusicalNotation-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with ModuleNotFoundError: No module named 'collidoscope'</p>
 </span></li></ul></div></details>
                     </body>
                 </html>

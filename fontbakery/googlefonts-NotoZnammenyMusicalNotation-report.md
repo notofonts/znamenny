@@ -1,11 +1,23 @@
-## Fontbakery report
+## FontBakery report
 
-Fontbakery version: 0.8.13
+fontbakery version: 0.9.0a2
 
-<details><summary><b>[19] NotoZnammenyMusicalNotation-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+<details><summary><b>[22] NotoZnammenyMusicalNotation-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
+</div></details><details><summary>💔 <b>ERROR:</b> Show hinting filesize impact. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact">com.google.fonts/check/hinting_impact</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:hinting_stats> had an error: ModuleNotFoundError: No module named 'dehinter'
+</div></details><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with KeyError: 'uni0E70'
+</div></details><details><summary>💔 <b>ERROR:</b> Check that no collisions are found while shaping (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/collides">com.google.fonts/check/shaping/collides</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ModuleNotFoundError: No module named 'collidoscope'
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -39,7 +51,7 @@ Fontbakery version: 0.8.13
 
 
 	- 0x0039 (DIGIT NINE)
- 
+
 
 	- 319 more.
 
@@ -73,7 +85,7 @@ But instead we have got:
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 289, but got 200 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 289, but got 200 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -82,19 +94,6 @@ But instead we have got:
 
 
 * 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
-
-
-* 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
-* 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 73 instead.
-Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
-* ⚠ **WARN** Font is monospaced but 1 glyphs (0.53%) have a different width. You should check the widths of: ['space'] [code: mono-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -113,9 +112,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
+	- Glyph name: uni25CC	Contours detected: 8	Expected: 16or12
 
-	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
+	- Glyph name: uni25CC	Contours detected: 8	Expected: 16or12
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -130,23 +129,67 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* u1CF32 (U+1CF32): X=346.0,Y=701.0 (should be at cap-height 700?)
+	* u1CF26 (U+1CF26): X=368.0,Y=-2.0 (should be at baseline 0?)
 
-	* u1CF36 (U+1CF36): X=198.0,Y=-198.0 (should be at descender -200?)
+	* u1CF28 (U+1CF28): X=356.0,Y=1.0 (should be at baseline 0?)
 
-	* u1CF37 (U+1CF37): X=191.0,Y=-198.0 (should be at descender -200?)
+	* u1CF28 (U+1CF28): X=356.0,Y=1.0 (should be at baseline 0?)
 
-	* u1CF3B (U+1CF3B): X=375.0,Y=698.0 (should be at cap-height 700?) 
+	* u1CF28 (U+1CF28): X=413.0,Y=1.0 (should be at baseline 0?)
 
-	* u1CF50 (U+1CF50): X=17.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+	* u1CF28 (U+1CF28): X=413.0,Y=1.0 (should be at baseline 0?)
+
+	* u1CF29 (U+1CF29): X=356.0,Y=699.0 (should be at cap-height 700?)
+
+	* u1CF29 (U+1CF29): X=356.0,Y=699.0 (should be at cap-height 700?)
+
+	* u1CF29 (U+1CF29): X=413.0,Y=699.0 (should be at cap-height 700?)
+
+	* u1CF29 (U+1CF29): X=413.0,Y=699.0 (should be at cap-height 700?)
+
+	* u1CF2B (U+1CF2B): X=490.0,Y=702.0 (should be at cap-height 700?)
+
+	* 73 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* u1CF54 (U+1CF54) contains a short segment B<<335.0,545.0>-<340.0,547.0>-<346.0,548.5>>
+
+	* u1CF54 (U+1CF54) contains a short segment B<<346.0,548.5>-<352.0,550.0>-<358.0,553.0>>
+
+	* u1CF55 (U+1CF55) contains a short segment B<<60.0,283.0>-<53.0,283.0>-<44.0,280.0>>
+
+	* u1CF82 (U+1CF82) contains a short segment B<<44.0,394.0>-<38.0,390.0>-<33.5,390.5>>
+
+	* u1CF82 (U+1CF82) contains a short segment B<<33.5,390.5>-<29.0,391.0>-<30.0,397.0>>
+
+	* u1CF82 (U+1CF82) contains a short segment B<<221.0,152.0>-<227.0,156.0>-<231.5,155.5>>
+
+	* u1CF82 (U+1CF82) contains a short segment B<<231.5,155.5>-<236.0,155.0>-<235.0,149.0>>
+
+	* u1CF8D (U+1CF8D) contains a short segment B<<264.5,390.5>-<260.0,391.0>-<261.0,397.0>>
+
+	* u1CF8D (U+1CF8D) contains a short segment B<<462.5,155.5>-<467.0,155.0>-<466.0,149.0>>
+
+	* u1CFBF (U+1CFBF) contains a short segment B<<125.0,199.0>-<130.0,203.0>-<133.0,199.5>> [code: found-short-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* u1CF55 (U+1CF55): B<<95.0,328.5>-<111.0,323.0>-<131.0,306.0>>/L<<131.0,306.0>--<49.0,399.0>> = 8.232180504531026 [code: found-jaggy-segments]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 11 | 7 | 124 | 8 | 95 | 0 |
-| 0% | 4% | 3% | 50% | 3% | 39% | 0% |
+| 4 | 10 | 8 | 124 | 7 | 94 | 0 |
+| 2% | 4% | 3% | 50% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
