@@ -2,7 +2,7 @@
 
 fontbakery version: 0.9.0a2
 
-<details><summary><b>[22] NotoZnammenyMusicalNotation-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+<details><summary><b>[21] NotoZnammenyMusicalNotation-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -124,34 +124,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* u1CF26 (U+1CF26): X=368.0,Y=-2.0 (should be at baseline 0?)
-
-	* u1CF28 (U+1CF28): X=356.0,Y=1.0 (should be at baseline 0?)
-
-	* u1CF28 (U+1CF28): X=356.0,Y=1.0 (should be at baseline 0?)
-
-	* u1CF28 (U+1CF28): X=413.0,Y=1.0 (should be at baseline 0?)
-
-	* u1CF28 (U+1CF28): X=413.0,Y=1.0 (should be at baseline 0?)
-
-	* u1CF29 (U+1CF29): X=356.0,Y=699.0 (should be at cap-height 700?)
-
-	* u1CF29 (U+1CF29): X=356.0,Y=699.0 (should be at cap-height 700?)
-
-	* u1CF29 (U+1CF29): X=413.0,Y=699.0 (should be at cap-height 700?)
-
-	* u1CF29 (U+1CF29): X=413.0,Y=699.0 (should be at cap-height 700?)
-
-	* u1CF2B (U+1CF2B): X=490.0,Y=702.0 (should be at cap-height 700?)
-
-	* 73 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -163,32 +135,38 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* u1CF55 (U+1CF55) contains a short segment B<<60.0,283.0>-<53.0,283.0>-<44.0,280.0>>
 
-	* u1CF82 (U+1CF82) contains a short segment B<<44.0,394.0>-<38.0,390.0>-<33.5,390.5>>
+	* u1CF75 (U+1CF75) contains a short segment B<<277.0,484.0>-<282.0,486.0>-<288.0,487.5>>
 
-	* u1CF82 (U+1CF82) contains a short segment B<<33.5,390.5>-<29.0,391.0>-<30.0,397.0>>
+	* u1CF75 (U+1CF75) contains a short segment B<<288.0,487.5>-<294.0,489.0>-<300.0,492.0>>
 
-	* u1CF82 (U+1CF82) contains a short segment B<<221.0,152.0>-<227.0,156.0>-<231.5,155.5>>
+	* u1CF76 (U+1CF76) contains a short segment B<<277.0,484.0>-<282.0,486.0>-<288.0,487.5>>
 
-	* u1CF82 (U+1CF82) contains a short segment B<<231.5,155.5>-<236.0,155.0>-<235.0,149.0>>
+	* u1CF76 (U+1CF76) contains a short segment B<<288.0,487.5>-<294.0,489.0>-<300.0,492.0>>
 
-	* u1CF8D (U+1CF8D) contains a short segment B<<264.5,390.5>-<260.0,391.0>-<261.0,397.0>>
+	* u1CF77 (U+1CF77) contains a short segment B<<277.0,484.0>-<282.0,486.0>-<288.0,487.5>>
 
-	* u1CF8D (U+1CF8D) contains a short segment B<<462.5,155.5>-<467.0,155.0>-<466.0,149.0>>
+	* u1CF77 (U+1CF77) contains a short segment B<<288.0,487.5>-<294.0,489.0>-<300.0,492.0>>
 
-	* u1CFBF (U+1CFBF) contains a short segment B<<125.0,199.0>-<130.0,203.0>-<133.0,199.5>> [code: found-short-segments]
+	* u1CF78 (U+1CF78) contains a short segment B<<277.0,484.0>-<282.0,486.0>-<288.0,487.5>>
+
+	* 27 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* u1CF55 (U+1CF55): B<<95.0,328.5>-<111.0,323.0>-<131.0,306.0>>/L<<131.0,306.0>--<49.0,399.0>> = 8.232180504531026 [code: found-jaggy-segments]
+	* u1CF55 (U+1CF55): B<<95.0,328.5>-<111.0,323.0>-<131.0,306.0>>/L<<131.0,306.0>--<49.0,399.0>> = 8.232180504531026
+
+	* u1CF5A (U+1CF5A): B<<95.0,328.5>-<111.0,323.0>-<131.0,306.0>>/L<<131.0,306.0>--<49.0,399.0>> = 8.232180504531026 [code: found-jaggy-segments]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 4 | 10 | 8 | 124 | 7 | 94 | 0 |
+| 4 | 10 | 7 | 124 | 7 | 95 | 0 |
 | 2% | 4% | 3% | 50% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
