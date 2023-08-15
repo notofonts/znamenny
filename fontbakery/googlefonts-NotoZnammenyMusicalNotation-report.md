@@ -53,7 +53,7 @@ fontbakery version: 0.9.0a2
 	- 0x0039 (DIGIT NINE)
 
 
-	- 319 more.
+	- 318 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -129,27 +129,27 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* u1CF54 (U+1CF54) contains a short segment B<<335.0,545.0>-<340.0,547.0>-<346.0,548.5>>
+	* u1CF00 (U+1CF00) contains a short segment L<<-160.0,242.0>--<-164.0,242.0>>
 
-	* u1CF54 (U+1CF54) contains a short segment B<<346.0,548.5>-<352.0,550.0>-<358.0,553.0>>
+	* u1CF00 (U+1CF00) contains a short segment L<<-288.0,223.0>--<-288.0,227.0>>
 
-	* u1CF55 (U+1CF55) contains a short segment B<<60.0,283.0>-<53.0,283.0>-<44.0,280.0>>
+	* u1CF00 (U+1CF00) contains a short segment L<<-218.0,351.0>--<-215.0,351.0>>
 
-	* u1CF75 (U+1CF75) contains a short segment B<<277.0,484.0>-<282.0,486.0>-<288.0,487.5>>
+	* u1CF01 (U+1CF01) contains a short segment L<<-96.0,534.0>--<-96.0,534.0>>
 
-	* u1CF75 (U+1CF75) contains a short segment B<<288.0,487.5>-<294.0,489.0>-<300.0,492.0>>
+	* u1CF01 (U+1CF01) contains a short segment L<<-96.0,534.0>--<-97.0,537.0>>
 
-	* u1CF76 (U+1CF76) contains a short segment B<<277.0,484.0>-<282.0,486.0>-<288.0,487.5>>
+	* u1CF01 (U+1CF01) contains a short segment L<<-284.0,242.0>--<-288.0,242.0>>
 
-	* u1CF76 (U+1CF76) contains a short segment B<<288.0,487.5>-<294.0,489.0>-<300.0,492.0>>
+	* u1CF01 (U+1CF01) contains a short segment L<<-412.0,223.0>--<-412.0,227.0>>
 
-	* u1CF77 (U+1CF77) contains a short segment B<<277.0,484.0>-<282.0,486.0>-<288.0,487.5>>
+	* u1CF01 (U+1CF01) contains a short segment L<<-342.0,351.0>--<-339.0,351.0>>
 
-	* u1CF77 (U+1CF77) contains a short segment B<<288.0,487.5>-<294.0,489.0>-<300.0,492.0>>
+	* u1CF02 (U+1CF02) contains a short segment B<<-233.0,542.0>-<-235.0,543.0>-<-234.5,549.0>>
 
-	* u1CF78 (U+1CF78) contains a short segment B<<277.0,484.0>-<282.0,486.0>-<288.0,487.5>>
+	* u1CF02 (U+1CF02) contains a short segment B<<-125.0,542.0>-<-127.0,543.0>-<-126.0,549.0>>
 
-	* 27 more.
+	* 87 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
