@@ -1,5 +1,5 @@
 {
-.appVersion = "3209";
+.appVersion = "3208";
 .formatVersion = 3;
 DisplayStrings = (
 "/_khryz   𜼀|𜼌    𜼘|
@@ -40,7 +40,7 @@ DisplayStrings = (
 "𜼠"
 );
 date = "2022-04-03 17:04:08 +0000";
-familyName = "Noto Znammeny Musical Notation";
+familyName = "Noto Znamenny Musical Notation";
 featurePrefixes = (
 {
 automatic = 1;

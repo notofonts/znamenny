@@ -1,4 +1,4 @@
 googleFonts: true
 sources:
-- NotoZnammenyMusicalNotation.glyphs
-familyName: Noto Znammeny Musical Notation
+  - NotoZnamennyMusicalNotation.glyphs
+familyName: Noto Znamenny Musical Notation
