@@ -19,6 +19,8 @@ venv: venv/touchfile
 build.stamp: venv .init.stamp sources/config*.yaml $(SOURCES)
 	rm -rf fonts
 	(for config in sources/config*.yaml; do . venv/bin/activate; python3 -m notobuilder $$config; done)  && touch build.stamp
+	# Rubricate
+	. venv/bin/activate; sh scripts/rubricate.sh
 
 .init.stamp: venv
 	. venv/bin/activate; python3 scripts/first-run.py
