@@ -44,12 +44,12 @@ DisplayStrings = (
 𜾄𜾅/_haczek 𜾛𜾚𜾿𜿀𜾃𜿁𜿂𜿃",
 "𜼧   𜽰",
 "𜽰",
-"𜼂",
+"𜼂𜽐𜼱𜼶𜼆",
 "𜾃/_vert.stem",
-"𜽓"
+"𜽓𜼂𜼂𜼂𜼂"
 );
-date = "2023-10-18 14:05:03 +0000";
-familyName = "Noto Znamenny Musical Notation TEST";
+date = "2023-10-27 09:21:51 +0000";
+familyName = "Noto Znamenny Musical Notation";
 featurePrefixes = (
 {
 automatic = 1;
@@ -13877,5 +13877,5 @@ value = "Noto is a trademark of Google Inc.";
 );
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }
