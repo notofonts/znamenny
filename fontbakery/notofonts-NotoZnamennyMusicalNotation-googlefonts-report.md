@@ -1,8 +1,12 @@
 ## FontBakery report
 
-fontbakery version: 0.10.2
+fontbakery version: 0.10.3
 
-<details><summary><b>[21] NotoZnamennyMusicalNotation-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+<details><summary><b>[1] Experimental checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+
+
+* 🔥 **FAIL** No GF glyphset was found to be supported >80%, so language shaping support couldn't get checked. [code: no-glyphset-supported]
+</div></details><br></div></details><details><summary><b>[21] NotoZnamennyMusicalNotation-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with KeyError: 'uni0E70'
@@ -1122,9 +1126,9 @@ But instead we have got:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0020 SPACE: try adding one of: kaithi, osage, old-hungarian, mro, bhaiksuki, miao, tangut, medefaidrin, dives-akuru, old-north-arabian, brahmi, linear-b, lydian, balinese, math, sundanese, bassa-vah, meroitic-hieroglyphs, old-sogdian, kharoshthi, old-turkic, manichaean, meroitic-cursive, osmanya, tagbanwa, khitan-small-script, anatolian-hieroglyphs, phoenician, newa, phags-pa, linear-a, mahajani, inscriptional-pahlavi, marchen, adlam, kawi, toto, javanese, limbu, tai-le, nushu, khmer, nko, sogdian, duployan, braille, cypro-minoan, syloti-nagri, vithkuqi, kayah-li, mayan-numerals, cuneiform, sharada, coptic, khojki, meetei-mayek, music, siddham, pahawh-hmong, khudawadi, multani, old-uyghur, cherokee, cham, tifinagh, yi, nag-mundari, new-tai-lue, nabataean, ogham, glagolitic, bamum, tangsa, deseret, caucasian-albanian, thaana, buginese, runic, cypriot, carian, ol-chiki, gunjala-gondi, imperial-aramaic, mende-kikakui, mongolian, masaram-gondi, saurashtra, lycian, elbasan, buhid, grantha, batak, tai-viet, wancho, nandinagari, pau-cin-hau, avestan, psalter-pahlavi, ahom, yezidi, symbols, nyiakeng-puachue-hmong, zanabazar-square, signwriting, hanunoo, old-permic, lisu, makasar, ugaritic, tirhuta, vai, meroitic, lepcha, tai-tham, sora-sompeng, warang-citi, tagalog, latin, old-italic, modi, takri, dogra, gothic, indic-siyaq-numbers, old-persian, hanifi-rohingya, shavian, chorasmian, rejang, syriac, hatran, old-south-arabian, samaritan, canadian-aboriginal, mandaic, soyombo, palmyrene, elymaic, chakma, inscriptional-parthian
- * U+007C VERTICAL LINE: try adding one of: math, latin, khmer, adlam
- * U+25CC DOTTED CIRCLE: try adding one of: kaithi, osage, bhaiksuki, miao, brahmi, balinese, math, sundanese, bassa-vah, kharoshthi, bengali, manichaean, tagbanwa, oriya, newa, phags-pa, tamil, mahajani, marchen, adlam, javanese, limbu, sinhala, tai-le, khmer, nko, sogdian, duployan, syloti-nagri, kayah-li, sharada, coptic, khojki, meetei-mayek, music, lao, siddham, pahawh-hmong, khudawadi, cham, tifinagh, yi, new-tai-lue, devanagari, telugu, caucasian-albanian, thaana, buginese, gunjala-gondi, mende-kikakui, mongolian, thai, masaram-gondi, elbasan, buhid, grantha, batak, tai-viet, wancho, kannada, psalter-pahlavi, ahom, symbols, zanabazar-square, hanunoo, old-permic, gurmukhi, tirhuta, hebrew, lepcha, tagalog, modi, myanmar, takri, malayalam, dogra, hanifi-rohingya, rejang, gujarati, syriac, tibetan, mandaic, soyombo, chakma
+ * U+0020 SPACE: try adding one of: new-tai-lue, thaana, yi, tangsa, tirhuta, inscriptional-pahlavi, mro, osage, lepcha, syloti-nagri, kayah-li, indic-siyaq-numbers, miao, bassa-vah, duployan, warang-citi, avestan, imperial-aramaic, batak, tangut, cypriot, pahawh-hmong, khojki, mayan-numerals, phoenician, sogdian, toto, mende-kikakui, palmyrene, lisu, saurashtra, hatran, signwriting, anatolian-hieroglyphs, dogra, old-turkic, linear-b, old-sogdian, shavian, old-persian, khmer, elbasan, mandaic, math, ugaritic, tai-le, chakma, chorasmian, tagalog, rejang, hanifi-rohingya, old-south-arabian, psalter-pahlavi, vai, runic, marchen, nandinagari, khudawadi, nko, lydian, balinese, sora-sompeng, wancho, tai-tham, elymaic, modi, phags-pa, coptic, hanunoo, sundanese, nag-mundari, cham, canadian-aboriginal, limbu, yezidi, inscriptional-parthian, old-hungarian, buginese, cuneiform, old-italic, siddham, meroitic-cursive, vithkuqi, samaritan, masaram-gondi, medefaidrin, makasar, bamum, gunjala-gondi, sharada, dives-akuru, symbols, braille, syriac, buhid, meroitic, takri, lycian, old-permic, nushu, mongolian, zanabazar-square, ol-chiki, tai-viet, linear-a, meetei-mayek, kharoshthi, grantha, caucasian-albanian, glagolitic, soyombo, multani, pau-cin-hau, latin, old-north-arabian, gothic, tifinagh, mahajani, old-uyghur, carian, javanese, osmanya, ahom, manichaean, ogham, cypro-minoan, kaithi, tagbanwa, bhaiksuki, khitan-small-script, deseret, adlam, kawi, music, nyiakeng-puachue-hmong, cherokee, newa, nabataean, meroitic-hieroglyphs, brahmi
+ * U+007C VERTICAL LINE: try adding one of: khmer, adlam, latin, math
+ * U+25CC DOTTED CIRCLE: try adding one of: new-tai-lue, thaana, yi, myanmar, tirhuta, osage, lepcha, syloti-nagri, kayah-li, miao, bassa-vah, duployan, batak, pahawh-hmong, khojki, sogdian, mende-kikakui, dogra, kannada, lao, khmer, elbasan, mandaic, math, tai-le, chakma, hebrew, tagalog, rejang, hanifi-rohingya, psalter-pahlavi, marchen, bengali, khudawadi, nko, balinese, wancho, modi, phags-pa, coptic, hanunoo, sundanese, cham, limbu, gujarati, buginese, siddham, tamil, gurmukhi, masaram-gondi, thai, gunjala-gondi, sharada, symbols, syriac, buhid, takri, old-permic, zanabazar-square, mongolian, tai-viet, telugu, meetei-mayek, kharoshthi, oriya, grantha, caucasian-albanian, soyombo, tifinagh, mahajani, tibetan, javanese, ahom, manichaean, kaithi, tagbanwa, bhaiksuki, devanagari, adlam, music, newa, malayalam, sinhala, brahmi
  * U+1CF00 ZNAMENNY COMBINING MARK GORAZDO NIZKO S KRYZHEM ON LEFT: not included in any glyphset definition
  * U+1CF01 ZNAMENNY COMBINING MARK NIZKO S KRYZHEM ON LEFT: not included in any glyphset definition
  * U+1CF02 ZNAMENNY COMBINING MARK TSATA ON LEFT: not included in any glyphset definition
@@ -1410,8 +1414,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 11 | 9 | 126 | 8 | 99 | 0 |
-| 0% | 4% | 4% | 50% | 3% | 39% | 0% |
+| 1 | 12 | 9 | 126 | 8 | 99 | 0 |
+| 0% | 5% | 4% | 49% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
