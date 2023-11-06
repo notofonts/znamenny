@@ -1,14 +1,7 @@
 name: Build, QA, release
 
 on:
-  workflow_call:
-    secrets:
-      USER_GITHUB_TOKEN:
-        description: "A github token representing the Google Fonts onboarder's account"
-        required: false
-      SSH_KEY:
-        description: "An SSH key for the Google Fonts onboarder"
-        required: false
+  push
 
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
