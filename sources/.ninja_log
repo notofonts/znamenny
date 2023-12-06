@@ -1,11 +1,16 @@
 # ninja log v5
-0	1339	1701342649316548854	instance_ufos/NotoZnamennyMusicalNotation-Regular.ufo.json	90c6dca111af634f
-1339	3253	1701342651214605035	../fonts/NotoZnamennyMusicalNotation/unhinted/ttf/NotoZnamennyMusicalNotation-Regular.ttf	52b0aea61bec7a6b
-1339	3613	1701342651562634596	../fonts/NotoZnamennyMusicalNotation/unhinted/otf/NotoZnamennyMusicalNotation-Regular.otf	86aa882ca81bd8c
-3253	5429	1701342653326662078	../fonts/NotoZnamennyMusicalNotation/hinted/ttf/NotoZnamennyMusicalNotation-Regular.ttf	3bc66a20db732ca6
-5429	7064	1701342654992516413	../fonts/NotoZnamennyMusicalNotation/googlefonts/ttf/NotoZnamennyMusicalNotation-Regular.ttf	760d4415603cf8a7
-1	975	1701879762936025917	instance_ufos/NotoZnamennyMusicalNotation-Regular.ufo.json	90c6dca111af634f
-975	2445	1701879764396437231	../fonts/NotoZnamennyMusicalNotation/unhinted/ttf/NotoZnamennyMusicalNotation-Regular.ttf	52b0aea61bec7a6b
-975	2710	1701879764640595133	../fonts/NotoZnamennyMusicalNotation/unhinted/otf/NotoZnamennyMusicalNotation-Regular.otf	86aa882ca81bd8c
-2445	3960	1701879765840181885	../fonts/NotoZnamennyMusicalNotation/hinted/ttf/NotoZnamennyMusicalNotation-Regular.ttf	3bc66a20db732ca6
-3960	5250	1701879767163562242	../fonts/NotoZnamennyMusicalNotation/googlefonts/ttf/NotoZnamennyMusicalNotation-Regular.ttf	760d4415603cf8a7
+4070	5684	1701884502725492632	../fonts/NotoZnamennyMusicalNotation/googlefonts/ttf/NotoZnamennyMusicalNotation-Regular.ttf	760d4415603cf8a7
+1004	2671	1701884499762721128	../fonts/NotoZnamennyMusicalNotation/unhinted/otf/NotoZnamennyMusicalNotation-Regular.otf	86aa882ca81bd8c
+1003	2439	1701884499563493892	../fonts/NotoZnamennyMusicalNotation/unhinted/ttf/NotoZnamennyMusicalNotation-Regular.ttf	52b0aea61bec7a6b
+2439	4056	1701884501070372263	../fonts/NotoZnamennyMusicalNotation/hinted/ttf/NotoZnamennyMusicalNotation-Regular.ttf	3bc66a20db732ca6
+0	1003	1701884498121582796	instance_ufos/NotoZnamennyMusicalNotation-Regular.ufo.json	90c6dca111af634f
+1	959	1701884689573633979	instance_ufos/NotoZnamennyMusicalNotation-Regular.ufo.json	90c6dca111af634f
+959	2597	1701884691166876408	../fonts/NotoZnamennyMusicalNotation/unhinted/ttf/NotoZnamennyMusicalNotation-Regular.ttf	52b0aea61bec7a6b
+959	2886	1701884691383982139	../fonts/NotoZnamennyMusicalNotation/unhinted/otf/NotoZnamennyMusicalNotation-Regular.otf	86aa882ca81bd8c
+2597	4109	1701884692650295576	../fonts/NotoZnamennyMusicalNotation/hinted/ttf/NotoZnamennyMusicalNotation-Regular.ttf	3bc66a20db732ca6
+4110	5421	1701884693970685873	../fonts/NotoZnamennyMusicalNotation/googlefonts/ttf/NotoZnamennyMusicalNotation-Regular.ttf	760d4415603cf8a7
+0	1005	1701884752002598262	instance_ufos/NotoZnamennyMusicalNotation-Regular.ufo.json	90c6dca111af634f
+1005	2610	1701884753525043086	../fonts/NotoZnamennyMusicalNotation/unhinted/ttf/NotoZnamennyMusicalNotation-Regular.ttf	52b0aea61bec7a6b
+1006	2792	1701884753747626357	../fonts/NotoZnamennyMusicalNotation/unhinted/otf/NotoZnamennyMusicalNotation-Regular.otf	86aa882ca81bd8c
+2610	4110	1701884755051053201	../fonts/NotoZnamennyMusicalNotation/hinted/ttf/NotoZnamennyMusicalNotation-Regular.ttf	3bc66a20db732ca6
+4110	5399	1701884756351818379	../fonts/NotoZnamennyMusicalNotation/googlefonts/ttf/NotoZnamennyMusicalNotation-Regular.ttf	760d4415603cf8a7
