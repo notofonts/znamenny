@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="400" default="400">
+      <map input="400" output="100"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoZnamennyMusicalNotation-Regular.ufo.json" name="Noto Znamenny Musical Notation Regular" familyname="Noto Znamenny Musical Notation" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Znamenny Musical Notation Regular" familyname="Noto Znamenny Musical Notation" stylename="Regular" filename="instance_ufo/NotoZnamennyMusicalNotation-Regular.ufo" stylemapfamilyname="Noto Znamenny Musical Notation" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>_arch2</string>
+        <string>_circlefordotted</string>
+        <string>_cmark</string>
+        <string>_comma</string>
+        <string>_cross</string>
+        <string>_curve</string>
+        <string>_dotaboveclr</string>
+        <string>_haczek</string>
+        <string>_khryz</string>
+        <string>_lilcoma</string>
+        <string>_rect</string>
+        <string>_revs</string>
+        <string>_shorthaczek</string>
+        <string>_steep.rombus</string>
+        <string>_stem</string>
+        <string>_vert.stem</string>
+      </array>
+    </dict>
+  </lib>
+</designspace>

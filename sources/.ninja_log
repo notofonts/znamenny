@@ -1,0 +1,6 @@
+# ninja log v5
+0	1339	1701342649316548854	instance_ufos/NotoZnamennyMusicalNotation-Regular.ufo.json	90c6dca111af634f
+1339	3253	1701342651214605035	../fonts/NotoZnamennyMusicalNotation/unhinted/ttf/NotoZnamennyMusicalNotation-Regular.ttf	52b0aea61bec7a6b
+1339	3613	1701342651562634596	../fonts/NotoZnamennyMusicalNotation/unhinted/otf/NotoZnamennyMusicalNotation-Regular.otf	86aa882ca81bd8c
+3253	5429	1701342653326662078	../fonts/NotoZnamennyMusicalNotation/hinted/ttf/NotoZnamennyMusicalNotation-Regular.ttf	3bc66a20db732ca6
+5429	7064	1701342654992516413	../fonts/NotoZnamennyMusicalNotation/googlefonts/ttf/NotoZnamennyMusicalNotation-Regular.ttf	760d4415603cf8a7
