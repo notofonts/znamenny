@@ -6,7 +6,7 @@ fontbakery version: 0.10.6
 
 
 * 🔥 **FAIL** No GF glyphset was found to be supported >80%, so language shaping support couldn't get checked. [code: no-glyphset-supported]
-</div></details><br></div></details><details><summary><b>[21] NotoZnamennyMusicalNotation-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[24] NotoZnamennyMusicalNotation-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with KeyError: 'uni0E70'
@@ -1030,6 +1030,12 @@ But instead we have got:
 
 
 * 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
+
+
+* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
+	* {'glyph': 'u1CFAA', 'component': 'u1CF30', 'x': 443, 'y': 117}
+	* {'glyph': 'u1CFAB', 'component': 'u1CF30', 'x': 443, 'y': 117} and {'glyph': 'u1CFAB', 'component': 'u1CF30', 'x': 443, 'y': 117} [code: found-duplicates]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1105,6 +1111,8 @@ But instead we have got:
 
 	- u1CF22
 
+	- u1CF23
+
 	- u1CF24
 
 	- u1CF25
@@ -1113,13 +1121,29 @@ But instead we have got:
 
 	- u1CF27
 
+	- u1CF28
+
 	- u1CF29
+
+	- u1CF2A
+
+	- u1CF2B
+
+	- u1CF30
 
 	- u1CF31
 
+	- u1CF32
+
+	- u1CF33
+
 	- u1CF35
 
-	- u1CF36 [code: unattached-dotted-circle-marks]
+	- u1CF36
+
+	- u1CF3B
+
+	- u1CF3C [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1134,9 +1158,9 @@ But instead we have got:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0020 SPACE: try adding one of: syloti-nagri, lycian, tai-tham, zanabazar-square, old-uyghur, linear-b, imperial-aramaic, chakma, balinese, caucasian-albanian, old-hungarian, kharoshthi, hanifi-rohingya, pau-cin-hau, latin, indic-siyaq-numbers, psalter-pahlavi, khitan-small-script, tifinagh, medefaidrin, buginese, pahawh-hmong, old-sogdian, coptic, takri, samaritan, gunjala-gondi, ugaritic, mongolian, adlam, ogham, signwriting, kaithi, tangut, dogra, buhid, nyiakeng-puachue-hmong, hanunoo, osage, brahmi, lepcha, old-north-arabian, avestan, old-permic, sogdian, nag-mundari, marchen, carian, phags-pa, old-turkic, tai-le, wancho, old-italic, tagalog, bassa-vah, multani, tirhuta, syriac, mayan-numerals, lydian, phoenician, nushu, sharada, runic, deseret, ol-chiki, nandinagari, soyombo, mro, thaana, canadian-aboriginal, gothic, grantha, mahajani, cham, cypro-minoan, vai, cherokee, tagbanwa, kayah-li, inscriptional-pahlavi, meroitic-cursive, lisu, inscriptional-parthian, linear-a, mandaic, tangsa, nabataean, bamum, limbu, kawi, rejang, khudawadi, yi, khmer, toto, old-south-arabian, math, anatolian-hieroglyphs, batak, chorasmian, meroitic-hieroglyphs, manichaean, vithkuqi, miao, warang-citi, cypriot, symbols, javanese, new-tai-lue, nko, meetei-mayek, duployan, elbasan, sundanese, dives-akuru, tai-viet, masaram-gondi, yezidi, makasar, palmyrene, hatran, ahom, saurashtra, modi, meroitic, newa, cuneiform, music, khojki, braille, glagolitic, mende-kikakui, siddham, bhaiksuki, sora-sompeng, shavian, elymaic, old-persian, osmanya
- * U+007C VERTICAL LINE: try adding one of: adlam, latin, math, khmer
- * U+25CC DOTTED CIRCLE: try adding one of: syloti-nagri, zanabazar-square, chakma, balinese, caucasian-albanian, kharoshthi, hanifi-rohingya, psalter-pahlavi, tifinagh, buginese, malayalam, pahawh-hmong, takri, coptic, gunjala-gondi, mongolian, adlam, kaithi, dogra, telugu, buhid, hanunoo, osage, brahmi, lepcha, devanagari, old-permic, sogdian, marchen, phags-pa, tai-le, wancho, tagalog, bassa-vah, tirhuta, syriac, tamil, lao, myanmar, sharada, soyombo, oriya, thaana, grantha, mahajani, cham, kannada, tagbanwa, kayah-li, mandaic, limbu, rejang, khudawadi, yi, khmer, math, batak, manichaean, miao, symbols, javanese, new-tai-lue, nko, meetei-mayek, duployan, elbasan, sinhala, sundanese, tai-viet, gurmukhi, masaram-gondi, tibetan, bengali, thai, ahom, hebrew, gujarati, modi, newa, music, khojki, mende-kikakui, siddham, bhaiksuki
+ * U+0020 SPACE: try adding one of: mayan-numerals, deseret, takri, tangsa, canadian-aboriginal, meroitic, elymaic, vai, syloti-nagri, tifinagh, carian, tai-viet, syriac, latin, marchen, chorasmian, mende-kikakui, pahawh-hmong, nko, limbu, buginese, gothic, bassa-vah, yi, cypriot, symbols, music, hanunoo, kharoshthi, lycian, hanifi-rohingya, sundanese, old-persian, zanabazar-square, modi, siddham, kaithi, multani, lepcha, sogdian, yezidi, newa, linear-b, ol-chiki, soyombo, imperial-aramaic, phags-pa, grantha, rejang, masaram-gondi, miao, inscriptional-pahlavi, mandaic, tangut, khmer, mongolian, mro, old-uyghur, pau-cin-hau, sora-sompeng, kayah-li, new-tai-lue, ahom, manichaean, tagbanwa, coptic, brahmi, tagalog, tirhuta, dives-akuru, old-sogdian, tai-le, bamum, indic-siyaq-numbers, osmanya, avestan, cuneiform, shavian, duployan, lydian, nyiakeng-puachue-hmong, cypro-minoan, gunjala-gondi, thaana, meroitic-cursive, linear-a, math, osage, phoenician, hatran, khojki, meetei-mayek, mahajani, elbasan, warang-citi, khitan-small-script, meroitic-hieroglyphs, nag-mundari, anatolian-hieroglyphs, dogra, vithkuqi, old-hungarian, batak, nandinagari, javanese, runic, nushu, old-south-arabian, inscriptional-parthian, old-turkic, lisu, caucasian-albanian, khudawadi, buhid, glagolitic, toto, samaritan, makasar, tai-tham, wancho, old-permic, braille, nabataean, cham, psalter-pahlavi, medefaidrin, kawi, ugaritic, palmyrene, sharada, adlam, saurashtra, signwriting, balinese, ogham, old-italic, old-north-arabian, cherokee, bhaiksuki, chakma
+ * U+007C VERTICAL LINE: try adding one of: khmer, adlam, math, latin
+ * U+25CC DOTTED CIRCLE: try adding one of: takri, syloti-nagri, tifinagh, tai-viet, syriac, marchen, mende-kikakui, pahawh-hmong, nko, limbu, buginese, tamil, bassa-vah, sinhala, yi, symbols, music, malayalam, hanunoo, kharoshthi, hanifi-rohingya, sundanese, zanabazar-square, modi, siddham, kaithi, hebrew, lepcha, sogdian, gujarati, newa, soyombo, bengali, phags-pa, grantha, rejang, masaram-gondi, miao, mandaic, khmer, thai, telugu, mongolian, kayah-li, new-tai-lue, gurmukhi, ahom, manichaean, tagbanwa, coptic, brahmi, tagalog, tirhuta, tai-le, duployan, gunjala-gondi, thaana, math, osage, khojki, meetei-mayek, mahajani, elbasan, lao, dogra, batak, javanese, tibetan, caucasian-albanian, khudawadi, buhid, kannada, oriya, wancho, old-permic, cham, devanagari, psalter-pahlavi, myanmar, sharada, adlam, balinese, bhaiksuki, chakma
  * U+1CF00 ZNAMENNY COMBINING MARK GORAZDO NIZKO S KRYZHEM ON LEFT: not included in any glyphset definition
  * U+1CF01 ZNAMENNY COMBINING MARK NIZKO S KRYZHEM ON LEFT: not included in any glyphset definition
  * U+1CF02 ZNAMENNY COMBINING MARK TSATA ON LEFT: not included in any glyphset definition
@@ -1324,6 +1348,10 @@ But instead we have got:
  * U+1CFC3 ZNAMENNY NEUME PAUK: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font:  [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1335,6 +1363,13 @@ Please take a look at the conversation at https://github.com/fonttools/fontbaker
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- u1CF24.alt
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1383,9 +1418,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* u1CF6F (U+1CF6F): X=84.0,Y=2.0 (should be at baseline 0?)
 
+	* u1CF8B (U+1CF8B): X=321.5,Y=-1.0 (should be at baseline 0?)
+
+	* u1CF8B (U+1CF8B): X=314.0,Y=-2.0 (should be at baseline 0?)
+
 	* u1CF8E (U+1CF8E): X=487.5,Y=2.0 (should be at baseline 0?)
 
-	* u1CF93 (U+1CF93): X=500.0,Y=2.0 (should be at baseline 0?)
+	* u1CF90 (U+1CF90): X=289.0,Y=-1.0 (should be at baseline 0?)
+
+	* u1CF90 (U+1CF90): X=289.0,Y=-1.0 (should be at baseline 0?)
+
+	* u1CF93 (U+1CF93): X=460.0,Y=2.0 (should be at baseline 0?)
 
 	* u1CFA5 (U+1CFA5): X=260.0,Y=-2.0 (should be at baseline 0?)
 
@@ -1416,8 +1459,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 12 | 9 | 127 | 8 | 98 | 0 |
-| 0% | 5% | 4% | 50% | 3% | 38% | 0% |
+| 1 | 13 | 11 | 126 | 8 | 96 | 0 |
+| 0% | 5% | 4% | 49% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
