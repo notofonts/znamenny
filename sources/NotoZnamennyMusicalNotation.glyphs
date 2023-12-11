@@ -37,7 +37,6 @@ DisplayStrings = (
 𜼫
 𜼬
 𜼭",
-"𜼠",
 "𜼌𜼀     𜼁    𜼃  𜼄  𜼅  𜼆  𜼇  𜼈  𜼉  𜼊  𜼋  𜼌  𜼍  𜼎  𜼏  𜼐  𜼑  𜼒  𜼓  𜼔  𜼕  𜼖  𜼗    𜼘   𜼙   𜼚  𜼛  𜼜  𜼝  𜼞  𜼟  𜼠  𜼡  𜼢  𜼣    𜼥  𜼦 𜼧  𜼨  𜼩  𜼪  𜼫  𜼬  𜼭  ",
 "𜼂/_curve 𜼵𜼲𜼳𜼴𜼵𜼶𜼷𜼸𜼹𜼺𜼻𜼼𜼽𜼾𜼿 𜽀𜽁𜽂𜽃𜽄 𜽅𜽆 /_vert.stem/_haczek 𜽐𜽑𜽒𜽓/_cross 𜽔𜽕𜽖𜽗𜽘𜽙𜽚𜼿𜽛𜽜𜽝/_steep.rombus 𜽞𜽟𜽠𜽡𜽢/_shorthaczek 𜽣𜽤𜽥𜽦𜽧𜽨𜽩𜽪𜽫𜽬𜽭𜽮𜽯/_haczek 𜽰𜽱𜽲𜽳𜽴𜽵𜽶𜽷𜽸𜽹𜽺𜽻𜽼
 𜽽𜽾𜽿𜾀𜾁𜾂𜾃𜾆𜾇𜾈𜾉𜾊𜾋𜾌𜾍𜾎𜾏𜾐𜾑𜾒𜾓𜾔𜾕𜾖𜾗𜾘𜾙𜾢𜾣𜾥𜾦𜾴𜾵𜾶𜾷𜾹𜾺𜾼𜾽𜽑𜽥𜾡𜾤𜾛𜾜𜾝𜾞𜾟𜾠𜾡𜾤/_comma 𜾧𜾨𜾩𜾪𜾫𜾬𜾭𜾮𜽖𜾯𜽕𜾰𜾱𜾲𜽤𜽥𜽦𜾳𜾸𜾻𜾾
@@ -194,13 +193,20 @@ DisplayStrings = (
 𜾋𜼰𜼦𜼢  𜼣   /u1CF8B_u1CF30 
 𜾆𜾅/u1CF86_u1CF85",
 "/u1CF6F_u1CF2B/u1CF6F_u1CF3C/u1CF86_u1CF30/u1CF86_u1CF31/u1CF86_u1CF31_u1CF3A/u1CF8B_u1CF30",
-"/u1CF24.alt"
+"/u1CF24.alt",
+"◌"
 );
 classes = (
 {
 code = "# u1CF6F_u1CF2B u1CF6F_u1CF3C u1CF86_u1CF30 u1CF86_u1CF31 u1CF86_u1CF31_u1CF3A u1CF86_u1CF85 u1CF8B_u1CF30 u1CF90_u1CF30 u1CF00 u1CF01 u1CF02 u1CF03 u1CF04 u1CF05 u1CF06 u1CF07 u1CF08 u1CF09 u1CF0A u1CF0B u1CF0C u1CF0D u1CF0E u1CF0F u1CF10 u1CF11 u1CF12 u1CF13 u1CF14 u1CF15 u1CF16 u1CF17 u1CF18 u1CF19 u1CF1A u1CF1B u1CF1C u1CF1D u1CF1E u1CF1F u1CF20 u1CF21 u1CF22 u1CF23 u1CF24 u1CF25 u1CF26 u1CF27 u1CF28 u1CF29 u1CF2A u1CF2B u1CF2C u1CF2D u1CF30 u1CF31 u1CF32 u1CF33 u1CF34 u1CF35 u1CF36 u1CF37 u1CF38 u1CF39 u1CF3A u1CF3B u1CF3C u1CF3D u1CF3E u1CF3F u1CF40 u1CF41 u1CF42 u1CF43 u1CF44 u1CF45 u1CF46 u1CF50 u1CF51 u1CF52 u1CF53 u1CF54 u1CF55 u1CF56 u1CF57 u1CF58 u1CF59 u1CF5A u1CF5B u1CF5C u1CF5D u1CF5E u1CF5F u1CF60 u1CF61 u1CF62 u1CF63 u1CF64 u1CF65 u1CF66 u1CF67 u1CF68 u1CF69 u1CF6A u1CF6B u1CF6C u1CF6D u1CF6E u1CF6F u1CF70 u1CF71 u1CF72 u1CF73 u1CF74 u1CF75 u1CF76 u1CF77 u1CF78 u1CF79 u1CF7A u1CF7B u1CF7C u1CF7D u1CF7E u1CF7F u1CF80 u1CF81 u1CF82 u1CF83 u1CF84 u1CF85 u1CF86 u1CF87 u1CF88 u1CF89 u1CF8A u1CF8B u1CF8C u1CF8D u1CF8E u1CF8F u1CF90 u1CF91 u1CF92 u1CF93 u1CF94 u1CF95 u1CF96 u1CF97 u1CF98 u1CF99 u1CF9A u1CF9B u1CF9C u1CF9D u1CF9E u1CF9F u1CFA0 u1CFA1 u1CFA2 u1CFA3 u1CFA4 u1CFA5 u1CFA6 u1CFA7 u1CFA8 u1CFA9 u1CFAA u1CFAB u1CFAC u1CFAD u1CFAE u1CFAF u1CFB0 u1CFB1 u1CFB2 u1CFB3 u1CFB4 u1CFB5 u1CFB6 u1CFB7 u1CFB8 u1CFB9 u1CFBA u1CFBB u1CFBC u1CFBD u1CFBE u1CFBF u1CFC0 u1CFC1 u1CFC2 u1CFC3 u1CF24.alt
 ";
 name = All;
+}
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2023-10-27 09:21:51 +0000";
@@ -259,6 +265,20 @@ tag = calt;
 );
 fontMaster = (
 {
+customParameters = (
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winDescent;
+value = 292;
+},
+{
+name = winAscent;
+value = 995;
+}
+);
 guides = (
 {
 locked = 1;
@@ -285,7 +305,7 @@ id = m01;
 metricValues = (
 {
 over = 16;
-pos = 800;
+pos = 995;
 },
 {
 over = 16;
@@ -300,7 +320,7 @@ over = -16;
 },
 {
 over = -16;
-pos = -200;
+pos = -292;
 },
 {
 }
@@ -312,11 +332,11 @@ glyphs = (
 {
 color = 9;
 glyphname = space;
-lastChange = "2023-10-04 16:52:35 +0000";
+lastChange = "2023-12-08 14:01:30 +0000";
 layers = (
 {
 layerId = m01;
-width = 200;
+width = 260;
 }
 );
 unicode = 32;
@@ -345,9 +365,19 @@ unicode = 124;
 },
 {
 glyphname = dottedCircle;
-lastChange = "2023-08-07 16:54:53 +0000";
+lastChange = "2023-12-08 14:02:54 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (303,-109);
+},
+{
+name = top;
+pos = (300,612);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -12493,7 +12523,7 @@ unicode = 118697;
 {
 color = 9;
 glyphname = u1CFAA;
-lastChange = "2023-12-07 18:46:12 +0000";
+lastChange = "2023-12-08 14:02:09 +0000";
 layers = (
 {
 anchors = (
@@ -12518,10 +12548,6 @@ ref = u1CFA9;
 {
 pos = (443,117);
 ref = u1CF30;
-},
-{
-pos = (443,117);
-ref = u1CF30;
 }
 );
 width = 739;
@@ -12532,7 +12558,7 @@ unicode = 118698;
 {
 color = 9;
 glyphname = u1CFAB;
-lastChange = "2023-12-07 18:46:12 +0000";
+lastChange = "2023-12-08 14:02:16 +0000";
 layers = (
 {
 anchors = (
@@ -12553,14 +12579,6 @@ layerId = m01;
 shapes = (
 {
 ref = u1CFA9;
-},
-{
-pos = (443,117);
-ref = u1CF30;
-},
-{
-pos = (443,117);
-ref = u1CF30;
 },
 {
 pos = (443,117);
@@ -16013,7 +16031,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2022 Google Inc. All Rights Reserved.";
+value = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/znamenny)";
 }
 );
 },
@@ -16022,13 +16040,13 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
 },
 {
 key = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 key = trademarks;
@@ -16038,6 +16056,10 @@ language = dflt;
 value = "Noto is a trademark of Google Inc.";
 }
 );
+},
+{
+key = vendorID;
+value = GOOG;
 }
 );
 unitsPerEm = 1000;

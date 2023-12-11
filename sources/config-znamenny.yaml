@@ -2,3 +2,7 @@ googleFonts: true
 sources:
   - NotoZnamennyMusicalNotation.glyphs
 familyName: Noto Znamenny Musical Notation
+buildVariable: false
+includeSubsets:
+- from: Noto Sans
+  name: GF_Latin_Core
