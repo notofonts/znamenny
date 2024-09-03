@@ -42,7 +42,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Download font build zip
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: fontbuild
           path: fonts
@@ -74,7 +74,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Download font build zip
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: fontbuild
           path: fonts
@@ -100,7 +100,7 @@ jobs:
   #   steps:
   #     - uses: actions/checkout@v3
   #     - name: Download font build zip
-  #       uses: actions/download-artifact@v3
+  #       uses: actions/download-artifact@v4.1.7
   #       with:
   #         name: fontbuild
   #         path: fonts
@@ -131,23 +131,23 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Download font zip
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: fontbuild
           path: fonts
       - name: Download fontbakery-googlefonts zip
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: fontbakery-googlefonts
           path: out
       - name: Download proof zip
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: proof
           path: out
         continue-on-error: true
       - name: Download regression test zip
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: regression
           path: out
@@ -198,7 +198,7 @@ jobs:
         run: make venv
       - run: pip3 install 'git+https://github.com/googlefonts/gftools@noto#egg=gftools'
       - name: Download font zip
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: fontbuild
           path: fonts
