@@ -1,17 +1,17 @@
-# Noto Znammeny
+# Noto Znamenny
 
-[![][Fontbakery]](https://notofonts.github.io/znammeny/fontbakery/fontbakery-report.html)
-[![][Universal]](https://notofonts.github.io/znammeny/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://notofonts.github.io/znammeny/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://notofonts.github.io/znammeny/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://notofonts.github.io/znammeny/fontbakery/fontbakery-report.html)
+[![][Fontbakery]](https://notofonts.github.io/znamenny/fontbakery/fontbakery-report.html)
+[![][Universal]](https://notofonts.github.io/znamenny/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://notofonts.github.io/znamenny/fontbakery/fontbakery-report.html)
+[![][Outline Correctness]](https://notofonts.github.io/znamenny/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://notofonts.github.io/znamenny/fontbakery/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fznammeny%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fznammeny%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Noto Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fznammeny%2Fgh-pages%2Fbadges%2FNotoFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fznammeny%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fznammeny%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fznammeny%2Fgh-pages%2Fbadges%2FUniversal.json
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fznamenny%2Fgh-pages%2Fbadges%2Foverall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fznamenny%2Fgh-pages%2Fbadges%2FGoogleFonts.json
+[Noto Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fznamenny%2Fgh-pages%2Fbadges%2FNotoFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fznamenny%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fznamenny%2Fgh-pages%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fznamenny%2Fgh-pages%2Fbadges%2FUniversal.json
 
 ## Building
 
@@ -23,7 +23,7 @@ If you want to build fonts manually on your own computer:
 * `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
 * `make proof` will generate HTML proof files.
 
-The proof files and QA tests are also available automatically via GitHub Actions - look at https://notofonts.github.io/znammeny.
+The proof files and QA tests are also available automatically via GitHub Actions - look at https://notofonts.github.io/znamenny.
 
 For information on how to work on Noto fonts, how the build process
 works and how to maintain it, see [the README file of the
