@@ -1,8 +1,9 @@
-googleFonts: true
-sources:
-  - NotoZnamennyMusicalNotation.glyphs
-familyName: Noto Znamenny Musical Notation
 buildVariable: false
+familyName: Noto Znamenny Musical Notation
+googleFonts: true
 includeSubsets:
 - from: Noto Sans
   name: GF_Latin_Core
+recipeProvider: noto
+sources:
+- NotoZnamennyMusicalNotation.glyphs
