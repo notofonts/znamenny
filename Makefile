@@ -1,9 +1,7 @@
-SOURCES=$(shell python3 scripts/read-config.py --sources )
-FAMILY=$(shell python3 scripts/read-config.py --family )
-
+SOURCES=$(shell python3 scripts/read-config.py --sources | sed 's/[^a-zA-Z._\/ ]//')
 help:
 	@echo "###"
-	@echo "# Build targets for $(FAMILY)"
+	@echo "# Build targets"
 	@echo "###"
 	@echo
 	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
@@ -19,8 +17,6 @@ venv: venv/touchfile
 build.stamp: venv .init.stamp sources/config*.yaml $(SOURCES)
 	rm -rf fonts
 	(for config in sources/config*.yaml; do . venv/bin/activate; gftools-builder $$config; done)  && touch build.stamp
-	# Rubricate
-	. venv/bin/activate; sh scripts/rubricate.sh
 
 .init.stamp: venv
 	. venv/bin/activate; python3 scripts/first-run.py
